@@ -41,7 +41,10 @@ header ul{
 .avatar{
     width: 40%;
     margin-left: 15%;
-    margin-bottom: -10%;
+    margin-bottom: -15%;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 8px gray;
 }
 .avatar2{
     border-radius: 50%;
@@ -126,7 +129,12 @@ div.scrollmenu{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    
+    .box{
+      width: 75%;
+    }
+    .tag{
+      margin-top: -1%;
+  }
 }
 
 /* navbar&footer */
