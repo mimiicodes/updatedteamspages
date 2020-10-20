@@ -75,6 +75,20 @@ div.scrollmenu{
 .plac{
   margin-bottom: 5%;
 }
+.stbtn:hover{
+  background-color:gold;
+}
+.stbtn:visited{
+  background-color: gold;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 99;
+  padding: 2.5% 0;
+}
 @media screen and (max-width: 800px){
     .tag{
         margin-top: -3%;
